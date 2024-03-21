@@ -8,7 +8,7 @@ num -= 10;
 
 console.log(num);
 
-let value = document.querySelector("input").value;
+let value = Number(document.querySelector("input").value);
 
 value += 25;
 
